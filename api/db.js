@@ -10,7 +10,8 @@ const sequelize = new Sequelize(process.env.POSTGRES_URL, {
       rejectUnauthorized: false,
     },
   },
-  logging: false, // Desativa logs SQL no console
+  logging: false,
+  dialectModule: pg, // Desativa logs SQL no console
 });
 
 // Modelo Portfolio
