@@ -1,3 +1,43 @@
+# Dependências
 /node_modules
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# Variáveis de ambiente
 .env
+.env.local
+.env.production
+.env.development
+
+# Documentação e testes locais
 /GUIA_POSTMAN.md
+Portfolio_API.postman_collection.json
+Portfolio_Local.postman_environment.json
+Portfolio_Vercel.postman_environment.json
+
+# Logs
+logs
+*.log
+
+# IDEs e editores
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Build e cache
+dist/
+build/
+.cache/
+*.tmp
+
+# Vercel
+.vercel
+
+# Sistema operacional
+Thumbs.db
+.DS_Store
