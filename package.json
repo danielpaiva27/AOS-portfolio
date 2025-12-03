@@ -1,0 +1,22 @@
+{
+  "name": "backend-portfolio-simples",
+  "version": "2.0.0",
+  "description": "API simples de portfolio com Express e PostgreSQL",
+  "main": "api/app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ./api/app.js",
+    "dev": "nodemon ./api/app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "pg": "^8.16.3",
+    "sequelize": "^6.37.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
