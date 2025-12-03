@@ -1,5 +1,6 @@
 import { Sequelize, DataTypes } from "sequelize";
 import "dotenv/config";
+import pg from "pg";
 
 // Conexão com PostgreSQL
 const sequelize = new Sequelize(process.env.POSTGRES_URL, {
